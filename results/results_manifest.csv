@@ -1,0 +1,16 @@
+file,category,source_role,public_status,notes
+intermediate_demo/standardization_qc/region_target_mst_demo.csv,standardization QC,MST target settings,demo only,Shows how regional-window standardization targets were stored.
+intermediate_demo/standardization_qc/raw_window_spatial_stats_demo.csv,standardization QC,raw spatial-window diagnostics,demo only,Records spatial-window properties before standardization.
+intermediate_demo/standardization_qc/standardized_retention_summary_demo.csv,standardization QC,retention diagnostics,demo only,Shows record retention by stage and broad region.
+intermediate_demo/standardization_qc/standardized_spatial_stats_demo.csv,standardization QC,standardized spatial-window diagnostics,demo only,Records spatial-window properties after standardization.
+intermediate_demo/spatial_qc/kde_hex_stage_summary_demo.csv,spatial QC,KDE/hex stage summary,demo only,Small summary behind the demonstration KDE/hex figure.
+intermediate_demo/spatial_qc/kde_hex_stage_maxima_demo.csv,spatial QC,KDE/hex maxima,demo only,Records stage-level KDE maxima for diagnostic scaling.
+intermediate_demo/spatial_qc/hex_stage_summary_demo.csv,spatial QC,stage-level hex summary,demo only,Summarizes standardized hex assemblage counts by stage.
+intermediate_demo/environment_context/stage_environment_summary_long_demo.csv,environment context,stage-level environmental summary,demo only,Long-format contextual environmental summary.
+intermediate_demo/environment_context/stage_environment_summary_wide_demo.csv,environment context,stage-level environmental summary,demo only,Wide-format contextual environmental summary.
+intermediate_demo/environment_context/stage_environment_timeline_zscores_demo.csv,environment context,standardized environmental timeline,demo only,Z-scored environmental context used for diagnostic plotting.
+intermediate_demo/pyrate_qc/pyrate_ess_diagnostics_demo.csv,PyRate QC,effective-sample-size diagnostics,demo only,Small ESS table used to define interpretation boundaries.
+intermediate_demo/pyrate_qc/pyrate_sensitivity_model_inventory_demo.csv,PyRate QC,model inventory,demo only,Lists model/run variants considered during sensitivity review.
+intermediate_demo/pyrate_qc/pyrate_global_10m_ess_summary_demo.tsv,PyRate QC,global-run ESS summary,demo only,Compact ESS summary from an exploratory global run.
+intermediate_demo/pyrate_qc/pyrate_dataset_status_sanitized_demo.csv,PyRate QC,sanitized regional dataset status,demo only,Path columns removed; retains only status and input-scale fields.
+

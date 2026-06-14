@@ -1,0 +1,7 @@
+region,target_mst_km,target_method,raw_occurrences
+Laurentia,9148.462,q0.75_bins_ge_30_occ,12851
+Baltica,3424.464,q0.75_bins_ge_30_occ,5528
+Siberia,4927.267,q0.75_bins_ge_30_occ,686
+South_China,2825.609,q0.75_bins_ge_30_occ,2609
+Gondwana_west,1856.386,q0.75_bins_ge_30_occ,3713
+Gondwana_east,1535.061,q0.75_bins_ge_30_occ,430

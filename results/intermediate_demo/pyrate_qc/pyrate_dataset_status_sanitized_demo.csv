@@ -1,0 +1,8 @@
+region,has_rtt,raw_mcmc_logs,occurrences,genera,collections,used_in_current_regional_analysis,rtt_status,log_status,use_status
+Baltica,TRUE,10,5077,298,1579,TRUE,RTT present,10 logs,used in Fig. 4/S14
+Gondwana,TRUE,10,3410,251,503,TRUE,RTT present,10 logs,used in Fig. 4/S14
+Gondwana east,FALSE,0,369,129,49,FALSE,no RTT,no logs,not used
+Gondwana west,TRUE,10,3041,194,454,FALSE,RTT present,10 logs,archive only
+Laurentia,TRUE,10,10561,277,2656,TRUE,RTT present,10 logs,used in Fig. 4/S14
+Siberia,TRUE,10,606,126,101,TRUE,RTT present,10 logs,used in Fig. 4/S14
+South China,TRUE,10,2276,198,683,TRUE,RTT present,10 logs,used in Fig. 4/S14

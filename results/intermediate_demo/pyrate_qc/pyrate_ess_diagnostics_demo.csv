@@ -1,0 +1,31 @@
+dataset,region,scope,parameter,ESS,ess_class
+Global,Global,global,posterior,7.64747017872141,ESS < 100
+Global,Global,global,prior,118.812722252652,ESS >= 100
+Global,Global,global,k_birth,294.499518688527,ESS >= 100
+Global,Global,global,k_death,35.0641430499787,ESS < 100
+Global,Global,global,alpha,21.6155111067276,ESS < 100
+pyrate_region_Laurentia_all_stages,Laurentia,regional,posterior,8.56148399909946,ESS < 100
+pyrate_region_Laurentia_all_stages,Laurentia,regional,prior,29.6182142025236,ESS < 100
+pyrate_region_Laurentia_all_stages,Laurentia,regional,k_birth,83.8945329261886,ESS < 100
+pyrate_region_Laurentia_all_stages,Laurentia,regional,k_death,35.1795951689281,ESS < 100
+pyrate_region_Laurentia_all_stages,Laurentia,regional,alpha,11.0683254683769,ESS < 100
+pyrate_region_Baltica_all_stages,Baltica,regional,posterior,21.7669495551105,ESS < 100
+pyrate_region_Baltica_all_stages,Baltica,regional,prior,260.378219985863,ESS >= 100
+pyrate_region_Baltica_all_stages,Baltica,regional,k_birth,1000,ESS >= 100
+pyrate_region_Baltica_all_stages,Baltica,regional,k_death,101.906503101968,ESS >= 100
+pyrate_region_Baltica_all_stages,Baltica,regional,alpha,310.753214080682,ESS >= 100
+pyrate_region_South_China_all_stages,South China,regional,posterior,737.37097713001,ESS >= 100
+pyrate_region_South_China_all_stages,South China,regional,prior,153.074313123466,ESS >= 100
+pyrate_region_South_China_all_stages,South China,regional,k_birth,808.945321053567,ESS >= 100
+pyrate_region_South_China_all_stages,South China,regional,k_death,327.916000161604,ESS >= 100
+pyrate_region_South_China_all_stages,South China,regional,alpha,844.064201932775,ESS >= 100
+pyrate_region_Siberia_all_stages,Siberia,regional,posterior,10.9981750228091,ESS < 100
+pyrate_region_Siberia_all_stages,Siberia,regional,prior,25.4944404430603,ESS < 100
+pyrate_region_Siberia_all_stages,Siberia,regional,k_birth,129.390258098897,ESS >= 100
+pyrate_region_Siberia_all_stages,Siberia,regional,k_death,68.7000589904499,ESS < 100
+pyrate_region_Siberia_all_stages,Siberia,regional,alpha,162.081352254981,ESS >= 100
+pyrate_region_Gondwana_all_stages,Gondwana,regional,posterior,12.9322114816417,ESS < 100
+pyrate_region_Gondwana_all_stages,Gondwana,regional,prior,135.411057820719,ESS >= 100
+pyrate_region_Gondwana_all_stages,Gondwana,regional,k_birth,197.503313991747,ESS >= 100
+pyrate_region_Gondwana_all_stages,Gondwana,regional,k_death,110.437504405732,ESS >= 100
+pyrate_region_Gondwana_all_stages,Gondwana,regional,alpha,111.889383557465,ESS >= 100

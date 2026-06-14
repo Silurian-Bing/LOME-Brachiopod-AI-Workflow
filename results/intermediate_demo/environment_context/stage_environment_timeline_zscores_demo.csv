@@ -1,0 +1,31 @@
+stage,midpoint_ma,metric,value,z_value
+Sandbian,455.465,Global temperature (GAT),15.83828105,0.457974516649753
+Katian,448.98,Global temperature (GAT),13.5956923157143,-0.225454139368809
+Hirnantian,444.14,Global temperature (GAT),9.294104465,-1.53636253671069
+Rhuddanian,441.78,Global temperature (GAT),12.3304238666667,-0.611044552098108
+Aeronian,439.54,Global temperature (GAT),16.5142424,0.663973659465449
+Telychian,435.76,Global temperature (GAT),18.44021325,1.2509130520624
+Sandbian,455.465,Relative sea level,206.336363636364,1.52766090813828
+Katian,448.98,Relative sea level,162.4,0.417395905015178
+Hirnantian,444.14,Relative sea level,92.175,-1.35717880693914
+Rhuddanian,441.78,Relative sea level,128.483333333333,-0.439672930591095
+Aeronian,439.54,Relative sea level,124.266666666667,-0.546227434477281
+Telychian,435.76,Relative sea level,161.633333333333,0.398022358854053
+Sandbian,455.465,Recovery rate,,
+Katian,448.98,Recovery rate,,
+Hirnantian,444.14,Recovery rate,0.481481481481482,1.25342432859099
+Rhuddanian,441.78,Recovery rate,0.166666666666667,-0.915350591108428
+Aeronian,439.54,Recovery rate,0.2,-0.685715599610846
+Telychian,435.76,Recovery rate,0.35,0.347641862128287
+Sandbian,455.465,Turnover fraction,0.864339084767334,0.719699905997804
+Katian,448.98,Turnover fraction,0.841009463495161,-0.0573722677809443
+Hirnantian,444.14,Turnover fraction,0.793647936728787,-1.63490857359851
+Rhuddanian,441.78,Turnover fraction,0.843112552461282,0.0126782442049933
+Aeronian,439.54,Turnover fraction,0.881761009035244,1.29999619132248
+Telychian,435.76,Turnover fraction,0.832521475507378,-0.340093500145816
+Sandbian,455.465,Local taxonomic retention,,
+Katian,448.98,Local taxonomic retention,,
+Hirnantian,444.14,Local taxonomic retention,0.370526801440756,1.38116848323859
+Rhuddanian,441.78,Local taxonomic retention,0.193747989982096,-0.15837721874061
+Aeronian,439.54,Local taxonomic retention,0.187637238062935,-0.211595032433206
+Telychian,435.76,Local taxonomic retention,0.0958227829739641,-1.01119623206477
