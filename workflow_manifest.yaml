@@ -1,0 +1,193 @@
+workflow:
+  id: lome_brachiopod_ai_workflow
+  title: "RAG-Skill-Agent workflow for LOME brachiopod paleobiogeography"
+  version: "0.1.0-public-demo"
+  status: "public demonstration package"
+  language: "English documentation with paleobiological domain terms"
+  research_domain:
+    - paleobiology
+    - paleobiogeography
+    - Late Ordovician mass extinction
+    - brachiopod macroevolution
+
+scientific_scope:
+  focal_question: "How did global brachiopod paleobiogeographic patterns change across the LOME and its aftermath?"
+  temporal_focus:
+    start: "Late Ordovician"
+    end: "early Silurian"
+    key_interval: "Sandbian to Telychian demonstration scope"
+  taxonomic_focus:
+    primary: "Brachiopoda"
+    contextual_groups:
+      - graptolites
+      - acritarchs
+      - chitinozoans
+      - corals
+      - trilobites
+      - cephalopods
+  data_scope: "Public-demo inputs and intermediate outputs only; final curated research data are excluded."
+
+architecture:
+  layers:
+    rag:
+      directory: "rag/"
+      purpose: "Literature-grounded retrieval with citation-level traceability."
+      default_index:
+        - "rag/knowledge_cards/"
+        - "rag/demo_chunks/demo_lome_brachiopod_chunks.jsonl"
+        - "rag/query_bank/retrieval_questions.md"
+        - "rag/bibliography/core_references.csv"
+      excluded_from_evidence_index:
+        - "rag/bibliography/needs_verification.csv"
+    skills:
+      directory: "skills/"
+      purpose: "Reusable computational and quality-control operations."
+      contract_files:
+        - "SKILL.md"
+        - "instructions.md"
+        - "trigger.md"
+        - "quality_standards.md"
+        - "examples/"
+        - "code/"
+    agents:
+      directory: "agents/"
+      purpose: "Workflow roles for routing, execution supervision, review, and human approval."
+    data:
+      directory: "data/"
+      purpose: "Small public-demo raw inputs only."
+    results:
+      directory: "results/"
+      purpose: "Small intermediate numerical outputs for workflow demonstration."
+    figures:
+      directory: "figures/"
+      purpose: "Selected non-final PNG demonstration figures."
+    runs:
+      directory: "runs/"
+      purpose: "Sanitized workflow run records and review traces."
+
+agents:
+  coordinator_agent:
+    file: "agents/coordinator_agent.md"
+    role: "Decompose the question, route tasks, enforce order, and maintain run state."
+  literature_rag_agent:
+    file: "agents/literature_rag_agent.md"
+    role: "Retrieve and summarize literature evidence with citation traceability."
+  database_agent:
+    file: "agents/database_agent.md"
+    role: "Import and integrate PBDB, GBDB, and authorized local occurrence records."
+  taxonomy_agent:
+    file: "agents/taxonomy_agent.md"
+    role: "Resolve synonymy, open nomenclature, rank conflicts, and doubtful identifications."
+  stratigraphy_agent:
+    file: "agents/stratigraphy_agent.md"
+    role: "Align stratigraphic units, age ranges, stage boundaries, and time bins."
+  paleogeography_agent:
+    file: "agents/paleogeography_agent.md"
+    role: "Reconstruct paleocoordinates and assign spatial units."
+  diversity_dynamics_agent:
+    file: "agents/diversity_dynamics_agent.md"
+    role: "Run diversity, sampling, and extinction or recovery diagnostics."
+  figure_agent:
+    file: "agents/figure_agent.md"
+    role: "Generate auditable figures from approved intermediate outputs."
+  review_agent:
+    file: "agents/review_agent.md"
+    role: "Perform adversarial checks on evidence, sampling, models, and interpretation."
+  human_review_protocol:
+    file: "agents/human_review_protocol.md"
+    role: "Define mandatory expert review and veto points."
+
+skills:
+  - id: pbdb_occurrence_query_skill
+    directory: "skills/pbdb_occurrence_query_skill/"
+    public_demo: true
+  - id: gbdb_local_import_skill
+    directory: "skills/gbdb_local_import_skill/"
+    public_demo: true
+  - id: taxonomic_cleaning_skill
+    directory: "skills/taxonomic_cleaning_skill/"
+    public_demo: true
+  - id: stratigraphic_binning_skill
+    directory: "skills/stratigraphic_binning_skill/"
+    public_demo: true
+  - id: paleogeographic_reconstruction_skill
+    directory: "skills/paleogeographic_reconstruction_skill/"
+    public_demo: true
+  - id: spatiotemporal_hex_standardization_skill
+    directory: "skills/spatiotemporal_hex_standardization_skill/"
+    public_demo: true
+  - id: diversity_estimation_skill
+    directory: "skills/diversity_estimation_skill/"
+    public_demo: true
+  - id: pyrate_pipeline_skill
+    directory: "skills/pyrate_pipeline_skill/"
+    public_demo: true
+  - id: biogeographic_network_skill
+    directory: "skills/biogeographic_network_skill/"
+    public_demo: true
+  - id: figure_generation_skill
+    directory: "skills/figure_generation_skill/"
+    public_demo: true
+  - id: workflow_audit_skill
+    directory: "skills/workflow_audit_skill/"
+    public_demo: true
+
+execution_order:
+  - coordinator_agent
+  - literature_rag_agent
+  - database_agent
+  - taxonomy_agent
+  - stratigraphy_agent
+  - paleogeography_agent
+  - diversity_dynamics_agent
+  - review_agent
+  - human_review_protocol
+  - figure_agent
+  - review_agent
+  - human_review_protocol
+
+review_gates:
+  - id: bibliography_gate
+    requirement: "Unverified references must remain outside the default evidence index."
+  - id: data_gate
+    requirement: "Demo data must not be treated as final curated research data."
+  - id: taxonomy_gate
+    requirement: "Synonymy, open nomenclature, and higher-rank records must be explicitly logged."
+  - id: stratigraphy_gate
+    requirement: "Time-bin choices and age-boundary assumptions must be recorded."
+  - id: paleogeography_gate
+    requirement: "Plate model, coordinate fields, and spatial-unit assignment must be inspectable."
+  - id: sampling_gate
+    requirement: "Diversity and spatial interpretations must be checked against sampling unevenness."
+  - id: human_veto_gate
+    requirement: "Domain experts may stop or reroute the workflow when outputs conflict with geological evidence."
+
+public_release_policy:
+  included:
+    - "Public-demo raw input tables."
+    - "Knowledge cards and demo RAG chunks."
+    - "Skill and Agent interface contracts."
+    - "Small intermediate diagnostic outputs."
+    - "Selected non-final demonstration figures."
+    - "Sanitized run records."
+  excluded:
+    - "Final curated occurrence tables."
+    - "Local expert synonymy and stratigraphic correction files."
+    - "Complete PyRate-ready taxon input files."
+    - "Full PyRate logs."
+    - "Final publication figures and editable source panels."
+    - "Unpublished final interpretations."
+    - "Full-text copyrighted PDFs or manuscript copies."
+
+environment:
+  conda_file: "environment.yml"
+  intended_use:
+    - "Inspect repository metadata."
+    - "Validate CSV, JSON, JSONL, and YAML files."
+    - "Run lightweight demonstration scripts."
+    - "Support public-demo geospatial and statistical examples."
+  not_guaranteed_for:
+    - "Full unpublished research execution."
+    - "Private local data processing."
+    - "Complete PyRate production runs."
+

@@ -1,0 +1,50 @@
+name: lome-brachiopod-ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - rasterio
+  - cartopy
+  - networkx
+  - pyyaml
+  - jsonschema
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - rich
+  - r-base=4.3
+  - r-essentials
+  - r-tidyverse
+  - r-data.table
+  - r-readr
+  - r-dplyr
+  - r-tidyr
+  - r-stringr
+  - r-ggplot2
+  - r-sf
+  - r-terra
+  - r-raster
+  - r-sp
+  - r-vegan
+  - r-ape
+  - r-igraph
+  - r-jsonlite
+  - r-yaml
+  - r-remotes
+  - pip:
+      - rapidfuzz
+      - bibtexparser
+
