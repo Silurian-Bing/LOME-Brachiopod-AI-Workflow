@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RAG evidence record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evidence_id",
+    "claim",
+    "claim_type",
+    "topic",
+    "citation_keys",
+    "confidence",
+    "review_required"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "description": "Stable local identifier for a claim-level evidence record."
+    },
+    "claim": {
+      "type": "string",
+      "description": "Short paraphrased claim. Do not store long verbatim text."
+    },
+    "claim_type": {
+      "type": "string",
+      "enum": [
+        "literature_supported",
+        "derived_synthesis",
+        "workflow_design",
+        "uncertain_or_disputed",
+        "needs_verification"
+      ]
+    },
+    "topic": {
+      "type": "string",
+      "enum": [
+        "lome_chronology",
+        "lome_mechanisms",
+        "brachiopod_biogeography",
+        "south_china",
+        "cross_taxon_context",
+        "database_and_tools",
+        "sampling_and_uncertainty",
+        "workflow_design"
+      ]
+    },
+    "citation_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Keys from core_references.csv. Empty only for workflow-design records."
+    },
+    "source_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Local research-note source IDs from source_inventory.csv."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "uncertainty_note": {
+      "type": "string"
+    },
+    "recommended_use": {
+      "type": "string",
+      "description": "Where the claim may be used: background, methods, review question, or not for citation."
+    },
+    "requires_skill": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Skill names required before this claim can support a result."
+    },
+    "review_required": {
+      "type": "boolean",
+      "description": "True when the claim should be checked by a scientific review agent before manuscript use."
+    },
+    "excluded_from_default": {
+      "type": "boolean",
+      "description": "True for records that may guide searching but should not be indexed as evidence."
+    }
+  }
+}
+

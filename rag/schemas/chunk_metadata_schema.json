@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RAG demo chunk",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "chunk_id",
+    "title",
+    "topic",
+    "text",
+    "citation_keys",
+    "tags",
+    "confidence",
+    "copyright_status"
+  ],
+  "properties": {
+    "chunk_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string",
+      "description": "Short paraphrased retrieval text."
+    },
+    "citation_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "ingestion_status": {
+      "type": "string",
+      "enum": [
+        "default_index",
+        "manual_review",
+        "excluded"
+      ]
+    },
+    "retrieval_priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "copyright_status": {
+      "type": "string",
+      "enum": [
+        "public_safe_paraphrase",
+        "metadata_only",
+        "local_private_only"
+      ]
+    },
+    "created_from": {
+      "type": "string"
+    }
+  }
+}
+

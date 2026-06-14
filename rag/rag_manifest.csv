@@ -1,0 +1,18 @@
+path,purpose,default_index,notes
+README.md,Folder-level explanation and copyright-safe usage guide,yes,Start here before building an index
+bibliography/citation_policy.md,Rules for promoting or excluding references,yes,Use before manuscript citation
+bibliography/core_references.csv,Curated references allowed for demo retrieval,yes,Use keys in generated answers
+bibliography/needs_verification.csv,Bibliographic leads requiring manual verification,no,Do not cite as evidence
+source_maps/source_inventory.csv,Inventory of local note sources used for synthesis,no,Documents provenance without exposing full notes
+knowledge_cards/01_lome_chronology_and_mechanisms.md,Claim-level card for LOME timing and mechanisms,yes,Public-safe paraphrase
+knowledge_cards/02_brachiopod_paleobiogeography.md,Claim-level card for brachiopod spatial patterns,yes,Public-safe paraphrase
+knowledge_cards/03_methods_databases_and_tools.md,Claim-level card for databases and computational tools,yes,Public-safe paraphrase
+knowledge_cards/04_cross_taxon_biogeographic_responses.md,Claim-level card for contextual fossil groups,yes,Public-safe paraphrase
+knowledge_cards/05_south_china_and_global_regions.md,Claim-level card for regional evidence,yes,Public-safe paraphrase
+knowledge_cards/06_uncertainties_and_frontiers.md,Claim-level card for uncertainties and open problems,yes,Public-safe paraphrase
+query_bank/retrieval_questions.md,Test questions and routing prompts,yes,Useful for retrieval evaluation
+schemas/evidence_record_schema.json,Schema for claim-level evidence records,yes,Use for future structured ingestion
+schemas/chunk_metadata_schema.json,Schema for JSONL demo chunks,yes,Use to validate chunk metadata
+prompts/rag_retrieval_instructions.md,Operational prompt for retrieval agent,yes,Use with RAG agent
+demo_chunks/demo_lome_brachiopod_chunks.jsonl,Small public-safe demonstration chunks,yes,Use for toy retrieval tests
+glossary.md,Workflow terms and definitions,yes,Use for agent grounding

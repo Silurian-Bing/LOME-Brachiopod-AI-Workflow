@@ -1,0 +1,13 @@
+source_id,local_file,primary_theme,rag_use,default_index
+dim01_lome_mechanisms,lo_bio_geo_dim01.md,LOME chronology mechanisms volcanism redox climate,Extract chronology and mechanism claims,yes
+dim02_methods,lo_bio_geo_dim02.md,paleobiogeography theory similarity SQS network methods,Extract methods and metric definitions,yes
+dim03_brachiopods,lo_bio_geo_dim03.md,brachiopod faunas Hirnantia Edgewood-Cathay recovery,Extract brachiopod evidence cards,yes
+dim04_other_taxa,lo_bio_geo_dim04.md,corals graptolites acritarchs chitinozoans trilobites cephalopods,Extract cross-taxon comparison,yes
+dim07_tools,lo_bio_geo_dim07.md,PBDB Fossilworks DDE GPlates R packages tools,Extract infrastructure and tool cards,yes
+wide01_lome_background,lo_bio_geo_wide01.md,LOME background and trends,Use for synthesis only,yes
+wide02_methods_overview,lo_bio_geo_wide02.md,methods and tools overview,Use for methods synthesis,yes
+wide03_taxa_overview,lo_bio_geo_wide03.md,key taxa around LOME,Use for cross-taxon cards,yes
+wide04_tools_overview,lo_bio_geo_wide04.md,databases R GIS GPlates network analysis,Use for workflow design,yes
+wide05_china_context,lo_bio_geo_wide05.md,China South China LOME research,Use for regional context,yes
+wide06_global_regions,lo_bio_geo_wide06.md,global paleobiogeographic provinces,Use for global comparison,yes
+wide07_frontiers,lo_bio_geo_wide07.md,2020-2026 frontier literature and disputes,Use cautiously; verify new references,partial
