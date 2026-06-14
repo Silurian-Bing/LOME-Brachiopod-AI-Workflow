@@ -1,0 +1,30 @@
+{
+  "run_id": "run_001",
+  "status": "accepted_after_revision",
+  "input_class": "raw occurrence tables plus mapping framework metadata",
+  "agents": [
+    "coordinator_agent",
+    "database_agent",
+    "stratigraphy_agent",
+    "paleogeography_agent",
+    "review_agent"
+  ],
+  "skills": [
+    "stratigraphic_binning_skill",
+    "paleogeographic_reconstruction_skill",
+    "spatiotemporal_hex_standardization_skill",
+    "workflow_audit_skill"
+  ],
+  "human_intervention": "Required: coordinate-field choice, binning logic, and MST target were revised by domain review.",
+  "public_outputs": [
+    "standardization correction note",
+    "retention-diagnostic requirement",
+    "audit entry"
+  ],
+  "excluded_outputs": [
+    "corrected final occurrence table",
+    "expert-curated local data",
+    "final publication figures"
+  ]
+}
+

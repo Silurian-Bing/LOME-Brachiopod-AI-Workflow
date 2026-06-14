@@ -1,0 +1,29 @@
+{
+  "run_id": "run_003",
+  "status": "retained_as_diagnostic_evidence",
+  "input_class": "standardized intermediate occurrence layer and public-demo raw tables",
+  "agents": [
+    "database_agent",
+    "paleogeography_agent",
+    "diversity_dynamics_agent",
+    "figure_agent"
+  ],
+  "skills": [
+    "spatiotemporal_hex_standardization_skill",
+    "diversity_estimation_skill",
+    "figure_generation_skill",
+    "workflow_audit_skill"
+  ],
+  "human_intervention": "Required: reviewer separated raw density, standardized spatial units, and downstream interpretation.",
+  "public_outputs": [
+    "selected KDE/hex diagnostic PNG",
+    "data-and-sampling diagnostic PNG",
+    "standardization diagnostic PNG"
+  ],
+  "excluded_outputs": [
+    "final standardized spatial layer",
+    "complete cell-level analytical table",
+    "final interpretive maps"
+  ]
+}
+

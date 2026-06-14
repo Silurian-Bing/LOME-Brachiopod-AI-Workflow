@@ -1,0 +1,27 @@
+{
+  "run_id": "run_004",
+  "status": "accepted_with_claim_downgrade",
+  "input_class": "draft result summaries, diagnostic figures, and intermediate metric tables",
+  "agents": [
+    "review_agent",
+    "diversity_dynamics_agent",
+    "figure_agent"
+  ],
+  "skills": [
+    "biogeographic_network_skill",
+    "diversity_estimation_skill",
+    "workflow_audit_skill"
+  ],
+  "human_intervention": "Required: reviewer downgraded several claims and requested explicit robustness boundaries.",
+  "public_outputs": [
+    "interpretation-boundary note",
+    "claim-downgrade audit record",
+    "future robustness checklist"
+  ],
+  "excluded_outputs": [
+    "final metric tables",
+    "cell-level result matrices",
+    "unpublished full null-model results"
+  ]
+}
+

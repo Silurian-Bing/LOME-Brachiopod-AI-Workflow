@@ -1,0 +1,7 @@
+run_id,folder,workflow_stage,primary_issue,human_review_role,public_status
+run_001,run_001_standardization_correction,data standardization,Coordinate and standardization mismatch caused poor retention and map incomparability,domain expert and audit agent,public-safe reconstructed trace
+run_002,run_002_figure_redesign,figure generation,Generated figures were too numerous and visually repetitive,domain expert and figure agent,public-safe reconstructed trace
+run_003,run_003_sampling_spatial_diagnostics,spatial diagnostics,Sampling units and spatial summaries needed explicit QC,coordinator and review agent,public-safe reconstructed trace
+run_004,run_004_statistical_review_boundary,statistical interpretation,Several inferences initially exceeded statistical support,independent statistical reviewer,public-safe reconstructed trace
+run_005,run_005_pyrate_reliability_review,macroevolutionary-rate analysis,PyRate outputs required ESS-aware interpretation limits,method reviewer and review agent,public-safe reconstructed trace
+

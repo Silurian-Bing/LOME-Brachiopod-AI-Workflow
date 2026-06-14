@@ -1,0 +1,26 @@
+{
+  "run_id": "run_002",
+  "status": "accepted_as_public_demo_subset",
+  "input_class": "intermediate PNG/PDF figures and figure-review notes",
+  "agents": [
+    "coordinator_agent",
+    "figure_agent",
+    "review_agent"
+  ],
+  "skills": [
+    "figure_generation_skill",
+    "workflow_audit_skill"
+  ],
+  "human_intervention": "Required: figures were judged for redundancy, visual quality, and public-safety before selection.",
+  "public_outputs": [
+    "figures/demo_png",
+    "figures/figure_manifest.csv",
+    "figures/README.md"
+  ],
+  "excluded_outputs": [
+    "final main figures",
+    "editable final vector figures",
+    "complete unpublished figure panels"
+  ]
+}
+

@@ -1,0 +1,27 @@
+{
+  "run_id": "run_005",
+  "status": "accepted_with_ESS_aware_interpretation",
+  "input_class": "PyRate-ready occurrence tables and run diagnostics",
+  "agents": [
+    "diversity_dynamics_agent",
+    "review_agent",
+    "figure_agent"
+  ],
+  "skills": [
+    "pyrate_pipeline_skill",
+    "figure_generation_skill",
+    "workflow_audit_skill"
+  ],
+  "human_intervention": "Required: PyRate interpretation was limited by ESS and convergence diagnostics.",
+  "public_outputs": [
+    "PyRate interpretation-boundary record",
+    "ESS-aware figure-design requirement",
+    "selected non-final context figures"
+  ],
+  "excluded_outputs": [
+    "complete PyRate logs",
+    "final regional PyRate metrics",
+    "publication-ready PyRate figure panels"
+  ]
+}
+
