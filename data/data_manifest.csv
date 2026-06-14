@@ -1,0 +1,4 @@
+file,source_type,workflow_role,public_status,notes
+raw_public_demo/pbdb_occurrences_raw_demo.csv,PBDB raw export,PBDB occurrence input,demo only,Small raw PBDB example file; not a curated or final dataset.
+raw_public_demo/gbdb_occurrences_raw_selected_demo.csv,GBDB original selected-column export,GBDB occurrence input,demo only,Original GBDB-derived table with selected fields; not merged with expert-curated data.
+
