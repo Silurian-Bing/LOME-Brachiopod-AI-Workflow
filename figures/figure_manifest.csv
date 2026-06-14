@@ -1,0 +1,11 @@
+file,workflow_category,source_file,notes
+demo_png/fig_demo_01_region_windows_initial.png,region-window diagnostic,Fig_S_region_windows_initial.png,Initial regional window visualization for workflow inspection.
+demo_png/fig_demo_02_plate_field_decision_katian.png,paleogeographic-field diagnostic,Fig_S_plate_field_decision_Katian.png,Intermediate check of paleogeographic field decisions.
+demo_png/fig_demo_03_olddata_model_compare_katian.png,model-comparison diagnostic,Fig_S_olddata_model_compare_Katian.png,Intermediate comparison between older data handling and model output.
+demo_png/fig_demo_04_major_plate_polygons_simple_katian.png,paleogeographic polygon diagnostic,Fig_S_major_plate_polygons_simple_fixed_Katian.png,Simplified fixed-plate polygon view for demonstration.
+demo_png/fig_demo_05_kde_hex_three_stage.png,hex-grid KDE demonstration,Figure_KDE_hex_Katian_Hirnantian_Rhuddanian.png,Example of equal-area hex-grid spatial summarization.
+demo_png/fig_demo_06_data_and_sampling.png,data-and-sampling diagnostic,Figure_S1_data_and_sampling.png,Demonstration of data scale and sampling structure.
+demo_png/fig_demo_07_standardization_diagnostics.png,standardization diagnostic,Figure_S2_standardization_diagnostics.png,Intermediate diagnostic view for workflow standardization.
+demo_png/fig_demo_08_katian_template_robustness.png,template robustness diagnostic,Figure_S3_katian_template_robustness.png,Non-final robustness diagnostic for a selected time interval.
+demo_png/fig_demo_09_environment_stage_context.png,environmental context,Fig21_1_environment_curves_stage_context.png,Context figure linking stage bins to environmental curves.
+demo_png/fig_demo_10_stage_beta_decomposition.png,beta-diversity exploratory output,Fig20_1_stage_beta_decomposition.png,Selected intermediate analytical output for demonstration.
