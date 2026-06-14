@@ -1,0 +1,8 @@
+{
+  "occurrence_file": "runs/run_001/intermediate/combined_source_preserving.csv",
+  "synonymy_file": "data/curated/synonymy_table.csv",
+  "open_nomenclature_policy": "flag_and_exclude_from_primary",
+  "rank_policy": "aggregate_to_genus",
+  "output_dir": "runs/run_001/intermediate/taxonomy"
+}
+

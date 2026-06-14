@@ -1,0 +1,14 @@
+{
+  "occurrence_file": "runs/run_001/intermediate/taxonomy/occurrences_taxonomy_cleaned.csv",
+  "time_scale": "GTS2020",
+  "bins": [
+    {"name": "Sandbian", "max_ma": 458.18, "min_ma": 452.75},
+    {"name": "Katian", "max_ma": 452.75, "min_ma": 445.21},
+    {"name": "Hirnantian", "max_ma": 445.21, "min_ma": 443.07},
+    {"name": "Rhuddanian", "max_ma": 443.07, "min_ma": 440.49},
+    {"name": "Aeronian", "max_ma": 440.49, "min_ma": 438.59},
+    {"name": "Telychian", "max_ma": 438.59, "min_ma": 432.93}
+  ],
+  "output_dir": "runs/run_001/intermediate/stratigraphy"
+}
+

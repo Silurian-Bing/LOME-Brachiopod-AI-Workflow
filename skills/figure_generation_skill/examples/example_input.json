@@ -1,0 +1,8 @@
+{
+  "figure_type": "workflow_diagram",
+  "input_file": "workflow_manifest.yaml",
+  "style": "Acta Palaeontologica Sinica",
+  "output_dir": "runs/run_001/figures",
+  "formats": ["pdf", "png"]
+}
+

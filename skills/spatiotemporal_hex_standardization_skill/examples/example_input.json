@@ -1,0 +1,11 @@
+{
+  "occurrence_file": "runs/run_001/intermediate/paleogeography/occurrences_coordinate_validated.csv",
+  "stage_col": "assigned_bins",
+  "lng_col": "paleolng2",
+  "lat_col": "paleolat2",
+  "taxon_col": "genus",
+  "grid": "equal_area_hex",
+  "output_dir": "runs/run_001/intermediate/hex_standardization",
+  "core_script": "/Users/ice/Documents/Data/PBDB/ForNEE/scripts/01_standardize_hex_and_prepare_pyrate.R"
+}
+

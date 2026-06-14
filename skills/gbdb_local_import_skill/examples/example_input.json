@@ -1,0 +1,7 @@
+{
+  "gbdb_file": "/Users/ice/Documents/Data/PBDB/GBDB_459_433_ICS_cleaned.csv",
+  "local_file": "/Users/ice/Documents/Data/PBDB/ForNEE/input/merged_final_C.csv",
+  "schema_map": "config/schema_map_gbdb_pbdb.csv",
+  "output_dir": "runs/run_001/intermediate/gbdb_local_import"
+}
+

@@ -1,0 +1,10 @@
+{
+  "base_name": "Brachiopoda",
+  "min_ma": 432.93,
+  "max_ma": 458.18,
+  "show": "full",
+  "vocab": "pbdb",
+  "limit": "all",
+  "output_dir": "runs/run_001/raw/pbdb"
+}
+

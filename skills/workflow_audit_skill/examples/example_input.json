@@ -1,0 +1,13 @@
+{
+  "workflow_root": "lome-brachiopod-ai-workflow",
+  "run_id": "run_001",
+  "required_files": [
+    "workflow_manifest.yaml",
+    "agents/agent_registry.md",
+    "agents/invocation_protocol.md",
+    "skills/README.md",
+    "runs/run_001/execution_log.jsonl",
+    "runs/run_001/human_review.md"
+  ]
+}
+

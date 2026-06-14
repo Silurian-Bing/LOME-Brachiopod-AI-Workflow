@@ -1,0 +1,9 @@
+{
+  "core_shell": "/Users/ice/Documents/Data/PBDB/ForNEE/pyrate_shells/02_run_pyrate_global_5M.sh",
+  "pyrate_script": "/Users/ice/PyRate/PyRate.py",
+  "python_exec": "python3",
+  "n_gen": 5000000,
+  "n_reps": 10,
+  "output_dir": "runs/run_001/results/pyrate"
+}
+

@@ -1,0 +1,9 @@
+{
+  "occurrence_file": "runs/run_001/intermediate/stratigraphy/occurrences_binned.csv",
+  "paleolng_col": "paleolng2",
+  "paleolat_col": "paleolat2",
+  "plate_col": "geoplate2",
+  "coordinate_source": "local curated PBDB/GBDB palaeocoordinate fields",
+  "output_dir": "runs/run_001/intermediate/paleogeography"
+}
+

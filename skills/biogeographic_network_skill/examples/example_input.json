@@ -1,0 +1,10 @@
+{
+  "occurrence_file": "runs/run_001/intermediate/hex_standardization/occurrences_hex_assigned.csv",
+  "taxon_col": "genus",
+  "time_col": "stage",
+  "region_col": "hex_id",
+  "similarity_metric": "jaccard",
+  "min_taxa_per_region": 3,
+  "output_dir": "runs/run_001/results/network"
+}
+
