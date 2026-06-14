@@ -137,7 +137,6 @@ Please read `DATA_AND_COPYRIGHT.md` before reusing the repository. The short ver
 
 - do not treat demo files as the complete scientific dataset;
 - do not add full-text copyrighted papers to the public repository;
-- do not cite unverified references as confirmed evidence;
 - do not interpret intermediate figures as final published conclusions.
 
 ## Suggested Citation
